@@ -17,19 +17,6 @@ wsl --update
 https://docs.docker.com/desktop/setup/install/windows-install/
 ```
 ### Reboot computer when asked to
-----
-#  Post Dependecies
-- Make a new folder for ros2 on your computer (make sure the folder is not connected to ONEDRIVE)
-## Open folder location in terminal
-- right click the folder and press "Open in Terminal"
-### Grab necessary files from github
-```
-git init
-git remote add origin 
-git remote add origin https://github.com/UTSARobotics/ros2-docker-crashcourse.git
-git fetch origin windows
-git pull origin windows
-```
 #   Docker-intructions
 ### Test that docker is running correctly
 ```
